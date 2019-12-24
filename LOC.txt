@@ -1,0 +1,21 @@
+As of writing this .txt, our line count after running cloc was: 1399.
+
+We are aware that this is below the suggested 1500 lines of code, or 500 LOC 
+per team member. However, we believe that we have put in a significant amount 
+of effort into this project that is not reflected in the line count. For 
+example, we initially kept track of each individual line of text in a file 
+using a simple string list. However, for the sake of efficiency, we 
+essentially rewrote the majority of our State module using a mutable Array 
+instead. This required several days worth of effort, as we dealt with 
+the challenges that mutability presented. Again, we were thinking of efficiency 
+here, including how NanOCaml would handle large files of text (such as 
+alice.txt which is roughly 3700 lines of text). 
+
+In addition, several components of NanOCaml required commiting several hours 
+of work into, but did not exactly add much lines of code. A great example of 
+this is the "hoff" (horizontal offset) and "voff" (vertical offset), which 
+required only a few lines of code to add, but requird considering many 
+different edge cases and how to handle them. A good example of such a case 
+is backspacing once a user has scrolled and incrementeed the vertical offset. 
+
+Thank you very much for your time and consideration.

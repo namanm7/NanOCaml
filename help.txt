@@ -1,0 +1,45 @@
+Main NanOCaml help text
+
+The NanOCaml editor is designed to emulate the functionality and ease-of-use of 
+the Nano text editor, but using OCaml code instead. There are four main sections
+of the editor.  The top line shows the program name and version. Next is the 
+main editor window showing the file being edited.  
+
+(*The status line is the third line from the bottom and shows important 
+messages.*)
+
+The notation for shortcuts is as follows: Control-key sequences are notated with
+a caret (^) symbol and can be entered by using the Control (Ctrl) key.  
+Escape-key sequences are notated with the Meta (M-) symbol and can be entered 
+using either the Esc, Alt, or Meta key depending on your keyboard setup. 
+To assure all capabilities of NanoCaml are possible, assign the Alt/Option key
+as the Meta key before using the editor (For more information, see install.txt).
+The following keystrokes are available in the main editor window.  
+
+Arrow keys --> move cursor up, down, left, and right
+Letters/numbers/space bar --> Input all letter characters on the keyboard
+Return --> Creates new line, and moves to beginning of next line
+Delete --> "Backspace"/"Delete"
+Tab --> Tab spacing
+^X --> Exit out of NanOCaml
+^U --> Undo previous action (characters or whitespace)
+^R --> Redo the undone action (characters or whitespace)
+^F --> Find and replace 
+^N --> Exit current file, search directory for another file or create new file
+^P --> Save file, but allow continued editing
+^H --> Display help page
+M-X --> Cut
+M-C --> Copy 
+M-V --> Paste
+M-A --> Move cursor to beginning of current line
+M-D --> Move cursor to end of current line
+M-W --> Move cursor to beginning of current file
+M-S --> Move cursor to end of current file
+M-J --> Jump to specific line of file
+M-T --> Toggle spellcheck
+M-P --> Toggle Portal at current line of file
+M-Shift+(<) --> Jump up to above portal
+M-Shift+(>) --> Jump down to below portal
+
+Press enter to exit
+  
