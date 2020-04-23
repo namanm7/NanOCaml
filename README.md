@@ -53,26 +53,49 @@ such as trying to open .jpgs and .bytes among other possible file types.
 
 KEY BINDINGS:
 Arrow keys --> move cursor up, down, left, and right
+
 Letters/numbers/space bar --> Input all letter characters on the keyboard
+
 Return --> Creates new line, and moves to beginning of next line
+
 Delete --> "Backspace"/"Delete"
+
 Tab --> Tab spacing
+
 ^X --> Exit out of NanOCaml
+
 ^U --> Undo previous action (characters or whitespace)
+
 ^R --> Redo the undone action (characters or whitespace)
+
 ^F --> Find and replace 
+
 ^N --> Exit current file, search directory for another file or create new file
+
 ^P --> Save file, but allow continued editing
+
 ^H --> Display help page
+
 M-X --> Cut
+
 M-C --> Copy 
+
 M-V --> Paste
+
 M-A --> Move cursor to beginning of current line
+
 M-D --> Move cursor to end of current line
+
 M-W --> Move cursor to beginning of current file
+
 M-S --> Move cursor to end of current file
+
 M-J --> Jump to specific line of file
+
 M-T --> Toggle spellcheck
+
 M-P --> Toggle Portal at current line of file
+
 M-Shift+(<) --> Jump up to above portal
+
 M-Shift+(>) --> Jump down to below portal
